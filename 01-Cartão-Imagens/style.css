@@ -1,0 +1,32 @@
+body {
+    background-color: #272727;
+}
+
+.title {
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.panel {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 480px;
+    width: auto;
+    margin-left: 1em;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.panel h3{
+    opacity: 0;
+}
+
+.panel.visible {
+    flex: 5;
+}
